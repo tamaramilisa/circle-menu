@@ -321,7 +321,7 @@ open class CircleMenu: UIButton {
     
     private var isBounceAnimating: Bool = false
 
-    @objc func onTap() {
+    @objc public func onTap() {
         guard isBounceAnimating == false else { return }
         isBounceAnimating = true
 
